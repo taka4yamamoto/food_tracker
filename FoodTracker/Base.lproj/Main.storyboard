@@ -37,6 +37,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UEn-Cq-CHV">
                                         <rect key="frame" x="0.0" y="66.5" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f4Q-r6-aai"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -52,6 +55,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="mealNemeLabel" destination="qun-Ac-zi6" id="xfC-66-1eH"/>
+                        <outlet property="nameTextField" destination="wcI-XV-5S7" id="bI3-xZ-0Gx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
