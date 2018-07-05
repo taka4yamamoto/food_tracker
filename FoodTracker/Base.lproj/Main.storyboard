@@ -73,6 +73,7 @@
                         <outlet property="mealNemeLabel" destination="qun-Ac-zi6" id="xfC-66-1eH"/>
                         <outlet property="nameTextField" destination="wcI-XV-5S7" id="bI3-xZ-0Gx"/>
                         <outlet property="photoImageView" destination="Zwb-Gg-Yd5" id="SSI-6I-Dke"/>
+                        <outlet property="rateControl" destination="XC9-tD-2yX" id="Tp0-vs-3BT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
