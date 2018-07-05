@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7453EB720EE062100A0AB3C /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7453EB620EE062100A0AB3C /* Meal.swift */; };
 		D7797D7320A5C25800A39CD1 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7797D7220A5C25800A39CD1 /* RatingControl.swift */; };
 		D7B074AF209AB67A004D2FF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B074AE209AB67A004D2FF7 /* AppDelegate.swift */; };
 		D7B074B1209AB67A004D2FF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B074B0209AB67A004D2FF7 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D7453EB620EE062100A0AB3C /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		D7797D7220A5C25800A39CD1 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		D7B074AB209AB67A004D2FF7 /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B074AE209AB67A004D2FF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				D7B074AE209AB67A004D2FF7 /* AppDelegate.swift */,
 				D7797D7220A5C25800A39CD1 /* RatingControl.swift */,
 				D7B074B0209AB67A004D2FF7 /* ViewController.swift */,
+				D7453EB620EE062100A0AB3C /* Meal.swift */,
 				D7B074B2209AB67A004D2FF7 /* Main.storyboard */,
 				D7B074B5209AB67B004D2FF7 /* Assets.xcassets */,
 				D7B074B7209AB67B004D2FF7 /* LaunchScreen.storyboard */,
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7453EB720EE062100A0AB3C /* Meal.swift in Sources */,
 				D7B074B1209AB67A004D2FF7 /* ViewController.swift in Sources */,
 				D7797D7320A5C25800A39CD1 /* RatingControl.swift in Sources */,
 				D7B074AF209AB67A004D2FF7 /* AppDelegate.swift in Sources */,
