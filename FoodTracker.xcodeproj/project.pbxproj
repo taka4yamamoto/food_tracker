@@ -10,6 +10,12 @@
 		D7453EB720EE062100A0AB3C /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7453EB620EE062100A0AB3C /* Meal.swift */; };
 		D7453EB920EE125400A0AB3C /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7453EB820EE125400A0AB3C /* MealTableViewCell.swift */; };
 		D7453EBB20EE193F00A0AB3C /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7453EBA20EE193F00A0AB3C /* MealTableViewController.swift */; };
+		D7453EC220EF8DBA00A0AB3C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7453EBD20EF8DB900A0AB3C /* RxSwift.framework */; };
+		D7453EC320EF8DBA00A0AB3C /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7453EBE20EF8DB900A0AB3C /* RxBlocking.framework */; };
+		D7453EC420EF8DBA00A0AB3C /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7453EBF20EF8DB900A0AB3C /* RxCocoa.framework */; };
+		D7453EC520EF8DBA00A0AB3C /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7453EC020EF8DB900A0AB3C /* RxTest.framework */; };
+		D7453EC620EF8DBA00A0AB3C /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7453EC120EF8DB900A0AB3C /* Differentiator.framework */; };
+		D7453EC920EF8EB800A0AB3C /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7453EC820EF8EB800A0AB3C /* RxDataSources.framework */; };
 		D7797D7320A5C25800A39CD1 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7797D7220A5C25800A39CD1 /* RatingControl.swift */; };
 		D7B074AF209AB67A004D2FF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B074AE209AB67A004D2FF7 /* AppDelegate.swift */; };
 		D7B074B1209AB67A004D2FF7 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B074B0209AB67A004D2FF7 /* MealViewController.swift */; };
@@ -33,6 +39,12 @@
 		D7453EB620EE062100A0AB3C /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		D7453EB820EE125400A0AB3C /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		D7453EBA20EE193F00A0AB3C /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		D7453EBD20EF8DB900A0AB3C /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		D7453EBE20EF8DB900A0AB3C /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		D7453EBF20EF8DB900A0AB3C /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		D7453EC020EF8DB900A0AB3C /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		D7453EC120EF8DB900A0AB3C /* Differentiator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differentiator.framework; path = Carthage/Build/iOS/Differentiator.framework; sourceTree = "<group>"; };
+		D7453EC820EF8EB800A0AB3C /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
 		D7797D7220A5C25800A39CD1 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		D7B074AB209AB67A004D2FF7 /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B074AE209AB67A004D2FF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +63,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7453EC920EF8EB800A0AB3C /* RxDataSources.framework in Frameworks */,
+				D7453EC220EF8DBA00A0AB3C /* RxSwift.framework in Frameworks */,
+				D7453EC320EF8DBA00A0AB3C /* RxBlocking.framework in Frameworks */,
+				D7453EC420EF8DBA00A0AB3C /* RxCocoa.framework in Frameworks */,
+				D7453EC520EF8DBA00A0AB3C /* RxTest.framework in Frameworks */,
+				D7453EC620EF8DBA00A0AB3C /* Differentiator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,12 +82,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D7453EBC20EF8DB900A0AB3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7453EC820EF8EB800A0AB3C /* RxDataSources.framework */,
+				D7453EC120EF8DB900A0AB3C /* Differentiator.framework */,
+				D7453EBE20EF8DB900A0AB3C /* RxBlocking.framework */,
+				D7453EBF20EF8DB900A0AB3C /* RxCocoa.framework */,
+				D7453EBD20EF8DB900A0AB3C /* RxSwift.framework */,
+				D7453EC020EF8DB900A0AB3C /* RxTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D7B074A2209AB67A004D2FF7 = {
 			isa = PBXGroup;
 			children = (
 				D7B074AD209AB67A004D2FF7 /* FoodTracker */,
 				D7B074C2209AB67B004D2FF7 /* FoodTrackerTests */,
 				D7B074AC209AB67A004D2FF7 /* Products */,
+				D7453EBC20EF8DB900A0AB3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +150,7 @@
 				D7B074A7209AB67A004D2FF7 /* Sources */,
 				D7B074A8209AB67A004D2FF7 /* Frameworks */,
 				D7B074A9209AB67A004D2FF7 /* Resources */,
+				D7453EC720EF8DCC00A0AB3C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -202,6 +235,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D7453EC720EF8DCC00A0AB3C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Differentiator.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxDataSources.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D7B074A7209AB67A004D2FF7 /* Sources */ = {
@@ -374,6 +429,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FoodTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -391,6 +450,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FoodTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
